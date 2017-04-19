@@ -1,5 +1,7 @@
 ## Mattermost deployment using Datacol
 
+[Mattermost](https://about.mattermost.com/) is a self-hosted, open-source alternative of Slack.
+
 Most of the code is taken from [mattermost-docker](https://github.com/mattermost/mattermost-docker) and changed to deploy on Kubernetes cluster using [Datacol](http://datacol.io).
 
 The purpose of the project is to show how to deploy a real world application using [Datacol](http://datacol.io). We will use [CloudSQL](https://github.com/GoogleCloudPlatform/cloudsql-proxy) (MySQL) as database backend.
@@ -26,7 +28,7 @@ Follow the steps below to get up and running -
     datacol env set PORT=3000
     datacol deploy
 
-## Link the mysql resource
+### Link the mysql resource
   
     datacol infra link mysql-11111
 
