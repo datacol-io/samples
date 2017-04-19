@@ -13,7 +13,7 @@ Follow the steps below to get up and running -
 
 #### Clone the repo
     
-    git clone https://github.com/datacol-io/mattermost-docker.git && cd mattermost-docker
+    git clone https://github.com/datacol-io/mattermost.git && cd mattermost
     datacol apps create
 
 #### Create a MySQL instance with CloudSQL
