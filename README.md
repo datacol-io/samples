@@ -3,7 +3,7 @@
 This repository contains sample applications which we used for demo purpose and can be deployed by Datacol [CLI](http://datacol.io/docs/cli).
 
 * [Mattermost](https://github.com/datacol-io/samples/tree/master/mattermost) - an open source alternative of Slack.
-* [Nodejs Hello World](https://github.com/datacol-io/samples/tree/master/nodejs-hello-world) - Nodejs hello world.
+* [Nodejs demo](https://github.com/datacol-io/samples/tree/master/node-demo) - Nodejs hello world.
 
 #### Community
 
